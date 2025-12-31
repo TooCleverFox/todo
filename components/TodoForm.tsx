@@ -21,7 +21,7 @@ export const TodoForm = ({ onAdd }: Props) => {
 		setError("");
 	};
 	return (
-		<form id="newtask" onSubmit={submitHandler}>
+		<form id="new-task" onSubmit={submitHandler}>
 			<div className="input-wrapper">
 				<input
 					type="text"

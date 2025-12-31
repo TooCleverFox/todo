@@ -22,7 +22,7 @@ body {
 	width: min(90%, 500px);
 	padding: 30px 40px;
 }
-#newtask {
+#new-task {
 	background-color: white;
 	padding: 30px 20px;
 	border-radius: 5px;
@@ -35,7 +35,7 @@ body {
 	display: flex;
 	gap: 10px;
 }
-#newtask input {
+#new-task input {
 	flex: 1;
 	height: 45px;
 	border: 2px solid #d1d3d4;
@@ -49,16 +49,16 @@ body {
 
 	width: 100%;
 }
-#newtask input:focus {
+#new-task input:focus {
 	outline: none;
 	border-color: #930dd6;
 }
-#newtask button:hover,
+#new-task button:hover,
 .task button:hover {
 	background-color: #930dd6;
 }
 
-#newtask button {
+#new-task button {
 	height: 45px;
 	border-radius: 5px;
 	font-weight: 500;
