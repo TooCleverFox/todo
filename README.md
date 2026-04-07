@@ -26,4 +26,5 @@ This project was built to master:
 
 ## 📸 Preview
 
-<img width="518" height="294" alt="image" src="https://github.com/user-attachments/assets/7e2882ae-60c0-45f5-a3de-513583d91ba4" />
+<img width="808" height="637" alt="image" src="https://github.com/user-attachments/assets/becae4e5-34e8-4b90-b3b2-94095b9b18db" />
+
