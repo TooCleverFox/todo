@@ -2,10 +2,11 @@
 	"name": "todo",
 	"version": "1.0.0",
 	"description": "",
-	"main": "old.js",
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build"
+		"build": "vite build",
+		"check": "biome check .",
+		"format": "biome format --write ."
 	},
 	"private": true,
 	"dependencies": {

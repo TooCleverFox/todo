@@ -1,30 +1,40 @@
 # Todo App
 
-A simple and intuitive Todo application for managing daily tasks.  
-Built with a focus on clean UI, usability, and basic task management functionality.
+A simple and intuitive Todo application for managing daily tasks. Users can create, complete, and remove tasks with persistent storage using LocalStorage.
 
 ## Features
 
 - Add new tasks
 - Mark tasks as completed
 - Delete tasks
-- Clean and minimal user interface
-- Responsive layout (works on different screen sizes)
+- Save tasks using LocalStorage
+- Responsive design
 
 ## Tech Stack
 
-- HTML
-- CSS
-- JS: DOM Manipulation, LocalStorage
+- React
+- TypeScript
+- Vite
+- Biome
+- LocalStorage
+
+## Installation
+
+```bash
+npm install
+npm run dev
+npm run check
+npm run build
+```
 
 ## Purpose
 
-This project was built to master:
-- Dynamic UI updates using JavaScript.
-- Creating a cohesive visual style with CSS.
-- Organizing project structure for better maintainability.
+This project focuses on:
 
-## 📸 Preview
+- Dynamic UI updates
+- State handling
+- LocalStorage integration
 
-<img width="808" height="637" alt="image" src="https://github.com/user-attachments/assets/becae4e5-34e8-4b90-b3b2-94095b9b18db" />
+## Preview
 
+![Todo App Screenshot](./screenshot/todo-preview.jpg)

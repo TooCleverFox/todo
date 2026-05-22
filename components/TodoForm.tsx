@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { type FormEvent, useState } from "react";
 
 type Props = {
 	onAdd: (text: string) => void;
@@ -8,7 +8,7 @@ export const TodoForm = ({ onAdd }: Props) => {
 	const [value, setValue] = useState("");
 	const [error, setError] = useState("");
 
-	const submitHandler = (e: React.FormEvent) => {
+	const submitHandler = (e: FormEvent) => {
 		e.preventDefault();
 
 		if (!value.trim()) {
